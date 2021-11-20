@@ -10,101 +10,101 @@ object Constants {
 
         val questionsList = ArrayList<Question>()
         val que1 = Question(
-            1, "What country does this flag belong to?",
-            R.drawable.flag_america1, "Argentina",
-            "America",
-            "India",
-            "Austria",
+            1, "Do you exercise at least 2 times a week for 20 or more minutes?",
+            R.drawable.one, "I never exercise",
+            "Yes",
+            "No",
+            "Sometimes",
             2
         )
         questionsList.add(que1)
 
         val que2 = Question(
-            2, "What country does this flag belong to?",
-            R.drawable.flag_india1, "Afghanistan",
-            "Pakistan",
-            "India",
-            "Bangladesh",
+            2, "Which food groups do you consume the most?",
+            R.drawable.two, "Meat, Fish and meat alternatives",
+            "Milk and Dairy",
+            "Fruit and vegetables",
+            "Fat",
             3
         )
         questionsList.add(que2)
 
         val que3 = Question(
-            3, "What country does this flag belong to?",
-            R.drawable.flag_denmark1, "Denmark",
-            "Pakistan",
-            "Russia",
-            "jordan",
+            3, "Do you get 7 hours of sleep most nights?",
+            R.drawable.three, "Yes",
+            "No",
+            "Sometimes",
+            "I barely sleep",
             1
         )
         questionsList.add(que3)
 
         val que4 = Question(
-            4, "What country does this flag belong to?",
-            R.drawable.flag_afghanistan1, "Bulgaria",
-            "China",
-            "Chile",
-            "Afghanistan",
+            4, "How many glasses of water do you drink in a day?",
+            R.drawable.four, "10-12",
+            "8-10",
+            "4-6",
+            "6-8",
             4
         )
         questionsList.add(que4)
 
         val que5 = Question(
-            5, "What country does this flag belong to?",
-            R.drawable.falg_bangladesh1, "Bangladesh",
-            "Pakistan",
-            "India",
-            "Bhutan",
+            5, "Do you eat real butter, cow ghee, olive oil, mustard oil or coconut oil?",
+            R.drawable.five, "Yes",
+            "No",
+            "Sometimes",
+            "Never",
             1
         )
         questionsList.add(que5)
 
         val que6 = Question(
-            6, "What country does this flag belong to?",
-            R.drawable.flag_egypt, "Ethiopia",
-            "Fiji",
-            "Georgia",
-            "Egypt",
+            6, "If you eat junk food what do you do?",
+            R.drawable.six, "Eat more",
+            "Nothing",
+            "Sleep",
+            "Exercise",
             4
         )
         questionsList.add(que6)
 
         val que7 = Question(
-            7, "What country does this flag belong to?",
-            R.drawable.flag_iceland, "Hungary",
-            "Iceland",
-            "Germany",
-            "Jamaica",
+            7, "According to you, Is this healthy food?",
+            R.drawable.seven, "No",
+            "Yes",
+            "Maybe",
+            "I don't know",
             2
         )
         questionsList.add(que7)
 
         val que8 = Question(
-            8, "What country does this flag belong to?",
-            R.drawable.flag_greece, "Greece",
-            "Iran",
-            "Indonesia",
-            "Iraq",
+            8, "Do you generally eat when you’re hungry and stop when you feel full?",
+            R.drawable.eight, "Yes",
+            "No",
+            "Sometimes",
+            "Never",
             1
         )
         questionsList.add(que8)
 
         val que9 = Question(
-            9, "What country does this flag belong to?",
-            R.drawable.flag_italy, "Argentina",
-            "Israel",
-            "Italy",
-            "Ireland",
+            9, "You decide to eat a hamburger, fries and tomato. Is that healthy?",
+            R.drawable.nine, "I don't know",
+            "Yes",
+            "No",
+            "Maybe",
             3
         )
         questionsList.add(que9)
 
         val que10 = Question(
-            10, "What country does this flag belong to?",
-            R.drawable.flag_japan, "Lebanon",
-            "Jordan",
-            "Japan",
-            "Libya",
+            10, "Can you run for thirty seconds without feeling like passing out?",
+            R.drawable.lastimage, "Sometimes",
+            "Never",
+            "Yes",
+            "No",
             3
         )
         questionsList.add(que10)

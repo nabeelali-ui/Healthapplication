@@ -17,7 +17,16 @@ class ResultActivity : AppCompatActivity() {
         tv_name.text=username
         val totalQuestions=intent.getIntExtra(Constants.TOTAL_QUESTIONS,0)
         val correctAnswers = intent.getIntExtra(Constants.CORRECT_ANSWERS,0)
-        tv_score.text="Your Score is $correctAnswers out of $totalQuestions "
+
+        if(a==0 && correctAnswers>5)
+            tv_score.text="Congratulations! You have a healthy diet and lifestyle"
+
+        else if (a==0 && correctAnswers<=5)
+            tv_score.text="Sorry, You need to focus more on your diet and lifestyle"
+
+        else if (a==1)
+            tv_score.text="Your Score is $correctAnswers out of $totalQuestions"
+
 
         btn_finish.setOnClickListener(){
             a=0
