@@ -1,7 +1,7 @@
 <h1>QuizApp</h1>
 <br>
 <h2>
-A simple Quiz App which can be used in different ways to engage in productivity 
+Health App which can be used in different ways to engage in productivity and get aware about good diet and healthy lifestyle 
   </h2>
   <br>
   
